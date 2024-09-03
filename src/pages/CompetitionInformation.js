@@ -4,43 +4,37 @@ import { ProjectCard } from "../components/ProjectCard";
 import "./CompetitionInformation.css";
 import template from "../assets/images/template.png";
 
-// Example project card content with additionalLink
+// Example project card content without additionalLink
 const projectsTab1 = [
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link1", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link2", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link3", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link4", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link5", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link6", // Example link
   },
 ];
 
@@ -49,37 +43,31 @@ const projectsTab2 = [
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link7", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link8", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link9", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link10", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link11", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link12", // Example link
   },
 ];
 
@@ -88,37 +76,31 @@ const projectsTab3 = [
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link13", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link14", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link15", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link16", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link17", // Example link
   },
   {
     title: "Stay Tuned!",
     description: "This has not been announced yet. Check again later.",
     imgUrl: template, // Add image URL if available
-    additionalLink: "https://example.com/link18", // Example link
   },
 ];
 
@@ -161,7 +143,6 @@ const CompetitionInformation = () => {
                     title={project.title}
                     description={project.description}
                     imgUrl={project.imgUrl}
-                    additionalLink={project.additionalLink} // Pass the additionalLink prop
                   />
                 ))}
               </Row>
@@ -175,7 +156,6 @@ const CompetitionInformation = () => {
                     title={project.title}
                     description={project.description}
                     imgUrl={project.imgUrl}
-                    additionalLink={project.additionalLink} // Pass the additionalLink prop
                   />
                 ))}
               </Row>
@@ -262,7 +242,6 @@ const CompetitionInformation = () => {
                     title={project.title}
                     description={project.description}
                     imgUrl={project.imgUrl}
-                    additionalLink={project.additionalLink} // Pass the additionalLink prop
                   />
                 ))}
               </Row>
