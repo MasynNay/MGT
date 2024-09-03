@@ -1,0 +1,112 @@
+.project #competition-information .competition-heading {
+  padding-top: 180px !important;
+  text-align: center;
+  color: #fff;
+}
+
+/* Style the navigation pills */
+.project #competition-information .nav-pills {
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.project #competition-information .nav-link {
+  font-weight: bold;
+  color: #fff;
+  padding: 17px 0;
+  text-align: center;
+}
+
+.project #competition-information .nav-link.active {
+  color: #fff;
+  background-color: rgba(240, 12, 31, 0.8);
+  border-radius: 25px;
+}
+
+/* Style for the tab content */
+.project #competition-information .tab-content {
+  padding-top: 20px;
+  color: #fff;
+}
+
+/* General box styling for tab content */
+.project #competition-information .tab-pane-content {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
+  border-radius: 10px;
+}
+
+.project #competition-information .tab-pane-content h4 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.project #competition-information .tab-pane-content p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* New Styles for Competition Results Tab */
+.project #competition-information .tab-pane-results {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background for the results section */
+  border-radius: 10px;
+}
+
+.project #competition-information .tab-pane-results h4 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.project #competition-information .tab-pane-results p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.project #competition-information .result-button {
+  display: inline-block;
+  width: auto;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* Styles for rules and notes section */
+.rules-notes {
+  font-family: "Centra", sans-serif;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.rules-notes h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.rules-notes strong {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #f00c1f; /* Highlight the headings */
+}
+
+.rules-notes ul {
+  margin: 10px 0;
+  padding: 0; /* Remove default padding */
+  list-style-type: none; /* Remove default bullets */
+}
+
+.rules-notes li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding-left: 0; /* Remove padding from left */
+}

@@ -1,0 +1,131 @@
+/* Style the heading for the Classes page */
+.project .classes-heading {
+  padding-top: 100px; /* Adjust as needed */
+  margin-bottom: 30px; /* Space below the heading */
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem; /* Increase font size */
+  font-weight: 700; /* Bold font weight */
+  border-bottom: 3px solid #fff; /* Add a border for emphasis */
+  display: inline-block;
+  padding-bottom: 10px; /* Space below the text */
+}
+
+/* Style the navigation pills */
+.project #classes .nav-pills {
+  width: 80%; /* Adjust to fit your layout */
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.project #classes .nav-pills .nav-item {
+  width: 33.33333%;
+}
+
+.project #classes .nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 15px 0; /* Adjust padding for a better look */
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+
+.project #classes .nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(
+    90.21deg,
+    rgba(29, 1, 1) -5.91%,
+    rgba(240, 12, 31) 111.58%
+  );
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.project #classes .nav-pills .nav-link.active::before {
+  width: 100% !important;
+}
+
+.project #classes .nav-pills .nav-link.active {
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2); /* Add a subtle background for active tab */
+}
+
+/* Style for the tab content */
+.project #classes .tab-content {
+  padding-top: 20px; /* Space above the content inside the tabs */
+}
+
+.project #classes .tab-content .tab-pane {
+  background-color: rgba(255, 255, 255, 0.05); /* Slightly different background for contrast */
+  padding: 20px; /* Add padding inside the tab content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  margin-bottom: 20px; /* Space between boxes */
+}
+
+.project #classes .tab-content h3, 
+.project #classes .tab-content h4 {
+  color: #fff; /* White color for headings */
+  font-weight: 700; /* Bold font weight */
+  margin-bottom: 10px; /* Space below the headings */
+}
+
+.project #classes .tab-content p {
+  color: #e0e0e0; /* Light grey color for text */
+  line-height: 1.6; /* Line height for readability */
+  margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.project #classes .tab-content .info-box {
+  background-color: rgba(0, 0, 0, 0.2); /* Slightly darker background for boxes */
+  padding: 15px; /* Padding inside the boxes */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Space between boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Style for Q&A box */
+.qa-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style for questions */
+.qa-question {
+  font-weight: bold;
+  cursor: pointer;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+/* Style for answers */
+.qa-answer {
+  margin-top: 5px;
+  padding-left: 10px;
+  display: none; /* Initially hidden */
+  color: #dcdcdc;
+}
+
+/* Show answer when active */
+.qa-question.active + .qa-answer {
+  display: block;
+}
+
