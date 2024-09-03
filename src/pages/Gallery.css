@@ -1,6 +1,6 @@
 .gallery-container {
   display: flex;
-  background-image: url(http://localhost:3000/React-Portfolio/static/media/banner2.0ff6d393181008facee1.jpg);
+  background-image: url("../assets/images/banner.PNG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
