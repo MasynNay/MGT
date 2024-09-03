@@ -24,7 +24,7 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={4} className="text-center">
             <div className="footerlogo">
-              <a href="/React-Portfolio">
+              <a href="/MGT">
                 <img src={logo2} alt="Logo2" />
               </a>
             </div>
